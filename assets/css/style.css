@@ -3,7 +3,11 @@ body {
   font-size: 18px;
   color: #777;
   line-height: 34px;
+<<<<<<< HEAD
   background: url("../images/large-background.jpg");
+=======
+  background: url("../images/concrete_seamless.png");
+>>>>>>> 9b8ad6ef664d8efb17f02f170e9635fd82036c22
 }
 
 * {
@@ -243,6 +247,7 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+<<<<<<< HEAD
 }
 
 @media only screen and (max-width: 980px) {
@@ -338,3 +343,6 @@ input[type=submit] {
 }
 
 
+=======
+}
+>>>>>>> 9b8ad6ef664d8efb17f02f170e9635fd82036c22
