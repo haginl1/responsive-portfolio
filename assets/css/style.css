@@ -3,13 +3,13 @@ body {
   font-size: 18px;
   color: #777;
   line-height: 34px;
-<<<<<<< HEAD
-  background: url("../images/large-background.jpg");
-=======
-  background: url("../images/concrete_seamless.png");
->>>>>>> 9b8ad6ef664d8efb17f02f170e9635fd82036c22
-}
 
+  background: url("../images/large-background.jpg");
+
+  
+/*background: url("../images/concrete_seamless.png");*/
+
+}
 * {
   box-sizing: border-box;
 }
@@ -114,6 +114,8 @@ footer {
   text-align: center;
   background: #666;
   border-top: 8px solid #4aaaa5;
+  
+
 }
 
 
@@ -269,80 +271,83 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 768px) {
-  .masthead {
-    padding: 30px;
-    margin: 0 0 40px 0;
-    width: 80%; 
-    background: #fff;
-    border: 1px solid #ddd;
-  }
+    .masthead {
+      padding: 30px;
+      margin: 0 0 40px 0;
+      width: 80%; 
+      background: #fff;
+      border: 1px solid #ddd;
+    }
 
-  .main-section {
-    padding: 30px;
-    margin: 0 0 20px 0;
-    width: 100%; 
-    background: #fff;
-    border: 1px solid #ddd;
-  }
+    .main-section {
+      padding: 30px;
+      margin: 0 0 20px 0;
+      width: 100%; 
+      background: #fff;
+      border: 1px solid #ddd;
+    }
 
-  .sidebar {
-    clear: both;
-    margin: 0 auto 20px;
-    width: 100%;
-    max-width: 960px;
+    .sidebar {
+      clear: both;
+      margin: 0 auto 20px;
+      width: 100%;
+      max-width: 960px;
+    }
   }
-}
 
 @media only screen and (max-width: 640px) {
-  .masthead {
-    padding: 30px;
-    margin: 0 0 40px 0;
-    width: 80%; 
-    background: #fff;
-    border: 1px solid #ddd;
-  }
+    .masthead {
+      width: 80%; 
+      background: #fff;
+      border: 1px solid #ddd;
+    }
 
+    .container {
+        clear: both;
+        margin: 0 auto;
+        width: 80%;
+        /*max-width: 960px;*/
+      }
   
+    nav a {
+      display: inline-block;
+      color: #999;
+      text-decoration: none;
+      line-height: 18px;
+      border-left: 1px solid #efefef;
+      margin-left:50px;
+      }
 
-  /*.main-section {
-    padding: 30px;
-    margin: 0 0 40px 0;
-    width: 100%; 
-    background: #fff;
-    border: 1px solid #ddd;
+    nav a:first-child {
+      border-left: 0 none;
+      }
+
+    nav {
+      clear: both;
+      margin-top: 0;
+      float:none;
+
+      }
+
+      #logo {
+      width: 100%;
+      height:60px;
+      float: left;
+      font-family: 'Georgia', Times, Times New Roman, serif;
+      text-align: center;
+      line-height: 60px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 24px;
+      text-decoration: none;
+      background: #4aaaa5;
+     }
+
+     .auth-image {
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+      margin-right: 25px;
+      
+     }
   }
-
-  .sidebar {
-    clear: both;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 960px;
-  }
-
-  #logo {
-  width: 100%;
-  height:60px;
-  float: left;
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  text-align: center;
-  line-height: 60px;
-  color: #fff;
-  font-weight: 700;
-  font-size: 24px;
-  text-decoration: none;
-  background: #4aaaa5;
- }
-
- .auth-image {
-  width: 100%;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-  float: left;
- }*/
-}
-
-
-=======
-}
->>>>>>> 9b8ad6ef664d8efb17f02f170e9635fd82036c22
